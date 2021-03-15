@@ -8,9 +8,9 @@ namespace Laba1
 {
     class Kvitancia
     {
-        private int Number;
-        private string Date;
-        private float Symma;
+        public int Number;
+        public string Date;
+        public double Symma;
         public void SetNumber(int Number)
         {
             this.Number = Number;
@@ -19,7 +19,7 @@ namespace Laba1
         {
             this.Date = Date;
         }
-        public void SetSymma(float Symma)
+        public void SetSymma(double Symma)
         {
             this.Symma = Symma;
         }
@@ -31,11 +31,11 @@ namespace Laba1
         {
             return this.Date;
         }
-        public float GetSymma()
+        public double GetSymma()
         {
             return this.Symma;
         }
-        public Kvitancia(int Number, string Date, float Symma)
+        public Kvitancia(int Number, string Date, double Symma)
         {
             this.Number = Number;
             this.Date = Date;
