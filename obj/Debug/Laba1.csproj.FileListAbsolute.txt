@@ -1,0 +1,13 @@
+C:\Учёба 3 курс\Практика КПЯП\Laba1\Laba1\bin\Debug\Laba1.exe.config
+C:\Учёба 3 курс\Практика КПЯП\Laba1\Laba1\bin\Debug\Laba1.exe
+C:\Учёба 3 курс\Практика КПЯП\Laba1\Laba1\bin\Debug\Laba1.pdb
+C:\Учёба 3 курс\Практика КПЯП\Laba1\Laba1\obj\Debug\Laba1.csprojResolveAssemblyReference.cache
+C:\Учёба 3 курс\Практика КПЯП\Laba1\Laba1\obj\Debug\Laba1.exe
+C:\Учёба 3 курс\Практика КПЯП\Laba1\Laba1\obj\Debug\Laba1.pdb
+D:\Учеба\УП по программированию\Laba1\Laba1\bin\Debug\Laba1.exe.config
+D:\Учеба\УП по программированию\Laba1\Laba1\bin\Debug\Laba1.exe
+D:\Учеба\УП по программированию\Laba1\Laba1\bin\Debug\Laba1.pdb
+D:\Учеба\УП по программированию\Laba1\Laba1\obj\Debug\Laba1.csproj.AssemblyReference.cache
+D:\Учеба\УП по программированию\Laba1\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+D:\Учеба\УП по программированию\Laba1\Laba1\obj\Debug\Laba1.exe
+D:\Учеба\УП по программированию\Laba1\Laba1\obj\Debug\Laba1.pdb

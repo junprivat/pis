@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Laba1
 {
     class Program
@@ -14,40 +15,40 @@ namespace Laba1
             {
 
                 int menu = 0;
-                List<Kvitancia> counts = new List<Kvitancia>();
+                List<Product> counts = new List<Product>();
                 do
                 {
-                    Console.WriteLine("1. Добавить квитанцию");
-                    Console.WriteLine("2. Посмотреть квитанцию");
+                    Console.WriteLine("1. Добавить товар");
+                    Console.WriteLine("2. Посмотреть товар");
                     menu = Convert.ToInt32(Console.ReadLine());
                     switch (menu)
                     {
                         case 1:
-                            Console.WriteLine("Введите номер квитанции");
+                            Console.WriteLine("Введите название товара");
+                            string name = Console.ReadLine();
+                            Console.WriteLine("Введите количество товара");
                             int number = Convert.ToInt32(Console.ReadLine());
-                            Console.WriteLine("Введите дату квитанции");
-                            string date = Console.ReadLine();
-                            Console.WriteLine("Введите сумму квитанции");
-                            double symma = Convert.ToDouble(Console.ReadLine());
-                            counts.Add(new Kvitancia(number, date, symma));
+                            Console.WriteLine("Введите сумму товара");
+                            float price = Convert.ToSingle(Console.ReadLine());
+                            counts.Add(new Product(name, number, price));
                             break;
                         case 2:
-                            Console.Write("Квитанция");
+                            Console.Write("Товар");
+                            for (int i = 0; i < counts.Count; i++)
+                            {
+                                Console.Write(" " + counts[i].Name);
+                            }
+                            Console.WriteLine();
+                            Console.Write("Количество");
                             for (int i = 0; i < counts.Count; i++)
                             {
                                 Console.Write(" " + counts[i].Number);
                             }
                             Console.WriteLine();
-                            Console.Write("Дата");
-                            for (int i = 0; i < counts.Count; i++)
-                            {
-                                Console.Write(" " + counts[i].Date);
-                            }
-                            Console.WriteLine();
                             Console.Write("Сумма");
                             for (int i = 0; i < counts.Count; i++)
                             {
-                                Console.Write(" " + counts[i].Symma);
+                                Console.Write(" " + counts[i].Price);
                             }
                             Console.ReadKey();
                             break;
